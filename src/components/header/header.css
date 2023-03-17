@@ -1,0 +1,88 @@
+header {
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 60px;
+ 
+}
+
+.portfolio-header {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    }
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.right-section {
+  display: flex;
+  justify-content: flex-end;
+}
+.resume-button {
+  display: inline-block;
+  background-color: #E91E63;
+  color: #FFFFFF;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.resume-button:hover {
+  background-color: #C2185B;
+}
+
+nav {
+    float: right;
+    margin: auto;
+    display: flex;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: auto;
+ 
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 1rem;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+nav li:first-child {
+  margin-left: 0;
+}
+
+nav a {
+  color: rgb(202, 150, 209);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+#profpic-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #522f50;
+  filter: drop-shadow(0 0 8px #7b3f2d);
+  float:right;
+  margin-left: auto;
+}
