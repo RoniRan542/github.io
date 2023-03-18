@@ -1,10 +1,6 @@
 // import logo from './logo.svg';
 import './App.scss';
-import { useState, useEffect } from 'react';
 import Projects from './components/projects';
-import Footer from './components/footer/footer';
-import Header from './components/header/header';
-import Skills from './components/skills/skills';
 import About from './components/About';
 import { Route, Router, Routes } from 'react-router-dom';
 import Layout from './components/layout/index'
