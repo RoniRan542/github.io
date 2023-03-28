@@ -75,9 +75,7 @@ nav {
     &:first-child{
          &:after{ 
             content: 'HOME';
-            text-align: left;
-            margin-left: 5px;
-           
+            text-align: center;
          }
     }
     
@@ -86,15 +84,14 @@ nav {
 a.about-link {
     &:after {
         content: 'ABOUT';
-        text-align: left;
-       margin-left: 5px;
+        text-align: center;
     }
 }
 
 a.projects-link {
     &:after {
         content: 'PROJECTS';
-        text-align: left;
+        text-align: center;
         
     }
 }
@@ -102,7 +99,7 @@ a.projects-link {
 a.contact-link {
     &:after {
         content: 'CONTACT';
-        text-align: left;
+        text-align: center;
         
     }
 }

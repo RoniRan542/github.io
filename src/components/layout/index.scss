@@ -76,6 +76,7 @@ body {
                 font-family: 'La Belle Aurore';
                 color: #d2c04b;
                 font-size: 18px;
+                font-weight: 600;
                 position: absolute;
                 margin-top: -20px;
                 opacity: 0.6;
@@ -87,6 +88,7 @@ body {
                 font-family: 'La Belle Aurore';
                 color: #d2c04b;
                 font-size: 18px;
+                font-weight: 600;
                 position: absolute;
                 margin-top: 35px;
                 left: -30px;
@@ -145,11 +147,12 @@ body {
   border-radius: 5px;
   text-decoration: none;
   font-size: 1.4rem;
-  transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.1s ease-in-out;
   
 
   &:hover {
-    background-color: #4d4d4e;
-    color: #d2c04b;
+    background-color: #d2c04b;
+    color: rgb(228, 235, 213);
+    cursor: pointer;
   }
 }

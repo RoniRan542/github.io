@@ -22,7 +22,7 @@ const Projects = () => {
       imageUrl: 'https://picsum.photos/seed/1/300/200',
       technologies: ['Python', 'Flask', 'Javascript','css'],
       liveUrl: 'https://example.com/project1',
-      codeUrl: 'https://github.com/example/project1',
+      codeUrl: 'https://github.com/RoniRan542/todo-list-rest-api',
     },
     {
       id: 2,
@@ -31,7 +31,7 @@ const Projects = () => {
       imageUrl: 'https://picsum.photos/seed/2/300/200',
       technologies: ['C', 'C++'],
       liveUrl: 'https://example.com/project2',
-      codeUrl: 'https://github.com/example/project2',
+      codeUrl: 'https://github.com/RoniRan542/snake_cpp',
     },
     {
       id: 3,
@@ -40,9 +40,35 @@ const Projects = () => {
       imageUrl: 'https://picsum.photos/seed/3/300/200',
       technologies: ['C', 'C++'],
       liveUrl: 'https://example.com/project3',
-      codeUrl: 'https://github.com/example/project3',
+      codeUrl: 'https://github.com/RoniRan542/checkers_cpp',
     },
- 
+    {
+      id: 4,
+      name: 'Url-Shortener',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan lorem vitae lacus iaculis semper. Nulla facilisi. Nullam vel purus sed massa maximus placerat. Donec ut tempor mi, sit amet ultricies mauris.',
+      imageUrl: 'https://picsum.photos/seed/5/300/200',
+      technologies: ['Python', 'Flask', 'Jinja2'],
+      liveUrl: 'https://example.com/project3',
+      codeUrl: 'https://github.com/RoniRan542/url-shoertener-python',
+    },
+    {
+      id: 5,
+      name: 'Garage System',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan lorem vitae lacus iaculis semper. Nulla facilisi. Nullam vel purus sed massa maximus placerat. Donec ut tempor mi, sit amet ultricies mauris.',
+      imageUrl: 'https://picsum.photos/seed/6/300/200',
+      technologies: ['C', 'C++', 'cppJson'],
+      liveUrl: 'https://example.com/project3',
+      codeUrl: 'https://github.com/RoniRan542/garage_system_git',
+    },
+    {
+      id: 6,
+      name: 'Local Cloud',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan lorem vitae lacus iaculis semper. Nulla facilisi. Nullam vel purus sed massa maximus placerat. Donec ut tempor mi, sit amet ultricies mauris.',
+      imageUrl: 'https://picsum.photos/seed/7/300/200',
+      technologies: ['C', 'C++', 'NBD','bash'],
+      liveUrl: 'https://example.com/project3',
+      codeUrl: 'https://github.com/RoniRan542/Embedded-project',
+    },
   ];
 
   
@@ -71,7 +97,6 @@ const Projects = () => {
               ))}
             </div>
             <div className="project-buttons">
-              <a href={project.liveUrl} className="project-button project-button--live">Live Demo</a>
               <a href={project.codeUrl} className="project-button project-button--code">View Code</a>
             </div>
         </div>
