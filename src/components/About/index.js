@@ -25,7 +25,7 @@ const About = () => {
         idx={15}
         />
       </h1>
-      <p>My name is Ran Aharon Cohen (but my friends call me Roni) and I am a skilled software developer. <br/>
+      <p>My name is Ran Aharon Cohen (but my friends call me Rani) and I am a skilled software developer. <br/>
         I have 4 years of experience as a frontend developer and 2 years of experience backend development and embedded software development.</p>
       <p>It seems like a lot of qualifications, I know, but I truly am interested in many aspects of software. Realy excited and passionate about it.</p>
       <p>In addition to that, my interests are in philosophy of science and technology, with a focus on integrating ideas.I love sports, going out with friends and Netflix, so I'm also a fun guy to be with :).</p>
