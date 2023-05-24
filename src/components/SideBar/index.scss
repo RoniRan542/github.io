@@ -1,13 +1,20 @@
 .nav-bar {
-    background-color: #181818;
-    width: 65px;
-    height: 100%;
-    position: absolute;
-    top:0;
-    z-index: 3;
-    min-height: 500px;
-    text-align: center;
+    display: none;
+}
 
+@media (min-width: 768px) {
+    .nav-bar {
+        display: block;
+        background-color: #181818;
+        width: 65px;
+        height: 100%;
+        position: absolute;
+        top:0;
+        z-index: 3;
+        min-height: 500px;
+        text-align: center;
+
+    }
 }
 
 .logo {

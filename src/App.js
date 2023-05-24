@@ -2,7 +2,7 @@
 import './App.scss';
 import Projects from './components/projects';
 import About from './components/About';
-import { Route, Router, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Layout from './components/layout/index'
 import Home from './components/home';
 import Contact from './components/Contact';

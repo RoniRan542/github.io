@@ -25,10 +25,11 @@ const About = () => {
         idx={15}
         />
       </h1>
-      <p>My name is Ran Aharon Cohen (but my friends call me Rani) and I am a skilled software developer. <br/>
-        I have 4 years of experience as a frontend developer and 2 years of experience backend development and embedded software development.</p>
-      <p>It seems like a lot of qualifications, I know, but I truly am interested in many aspects of software. Realy excited and passionate about it.</p>
-      <p>In addition to that, my interests are in philosophy of science and technology, with a focus on integrating ideas.I love sports, going out with friends and Netflix, so I'm also a fun guy to be with :).</p>
+      <p>My name is Ran Aharon Cohen (but my friends call me Rani) and I am a skilled software developer. 
+        I have 4 years of experience as a frontend developer and 2 years of experience backend development and in embedded software development.</p>
+      <p>It seems like a lot, I know, but I truly am interested in so many aspects of software and technology. Realy excited and passionate about it.</p>
+      <p>Other than software, my interests are in philosophy, science, math and technology. I love sports, music, hanging with my friends, I think that I'm also a fun guy to be with &#128516;</p>
+      <p>Best,<br/> Rani.</p>
       </div>
       <div className='stage-cube-cont'>
         <div className='cubespinner'>

@@ -9,7 +9,7 @@ const Layout = () => {
             <SideBar />
             <div className='page'>
                 <div className='right-section'>
-                    <a href="../../assets/files/mycv.pdf" download className="resume-download">
+                    <a href="../../assets/files/rani_cohen_cv.pdf" download className="resume-download">
                         Download Resume
                     </a>
                 </div>
